@@ -1,12 +1,32 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
+<ion-content padding class="main-content">
+  <h1 class="temperature">22<sup>o</sup></h1>
+  <div class="clouds">
+    <div class="cloud-one">
+      <ion-icon md="md-cloud"></ion-icon>
+    </div>
+    <div class="clearfix"></div>
+    <div class="cloud-two">
+      <ion-icon md="md-cloud"></ion-icon>
+    </div>
+    <div class="clearfix"></div>
+    <div class="cloud-three">
+      <ion-icon md="md-cloud"></ion-icon>
+    </div>
+    <div class="clearfix"></div>
+  </div>
+  <div class="clearfix"></div>
+
+  <div class="expression">
+    Cloudy!
+  </div>
+
+  <div class="date-selector">
+    <ion-item>
+      <ion-label>Date</ion-label>
+     
+        <ion-datetime placeholder="Date picker" display-format="MMM DD, YYYY HH:mm"></ion-datetime>
+      
+      </ion-item>
+  </div>
 </ion-content>

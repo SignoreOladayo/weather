@@ -1,1 +1,54 @@
+.main-content {
+    --background:linear-gradient(to bottom, #00C8FF, white);
+    padding-top:30px;
+}
 
+.main-content .temperature {
+    color:white;
+    float:left;
+    font-size: 54px;
+}
+
+.clouds {
+    float: right;
+    color: white;
+    opacity: 0.8;
+    width: 40%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.cloud-one {
+    font-size: 26px;
+    /* float: left; */
+    position: absolute;
+    /* margin-left: 30px; */
+}
+
+.cloud-two {
+    font-size: 56px;
+    /* float: right; */
+    position: absolute;
+    right: 25px;
+}
+
+.cloud-three {
+    font-size: 66px;
+    /* float: left; */
+    /* margin-left: 30px; */
+    position: absolute;
+    /* margin-bottom: 35px; */
+    top: 60px;
+}
+
+.expression{
+    color: white;
+    opacity: 0.8;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 45%;
+}
