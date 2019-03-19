@@ -15,7 +15,6 @@
     opacity: 0.8;
     width: 40%;
     height: auto;
-    margin-top: 20px;
 }
 
 .clearfix {
@@ -51,4 +50,18 @@
     font-size: 50px;
     text-align: center;
     margin-top: 45%;
+}
+
+.date-selector {
+    margin-top:20px;
+}
+
+.date-field {
+    --background: transparent !important;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.location-selector {
+    margin-top:20px
 }
